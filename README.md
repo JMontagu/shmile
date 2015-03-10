@@ -37,13 +37,10 @@ relatively simple to set up.
 
 ### Deploying/running
 
-#### Server instance
-
-The server is responsible for controlling the camera, and serving the Web interface that users will see. Here we assume that you already have [Homebrew](http://brew.sh/) installed and running on your Mac.
-
-##### Install node & npm
-
 I've currently tested this app against `node 0.10`.
+
+#### Mac
+Here we assume that you already have [Homebrew](http://brew.sh/) installed and running on your Mac.
 
     $ brew install node
 
@@ -54,6 +51,25 @@ I've currently tested this app against `node 0.10`.
 ##### Install [`gphoto2`](http://www.gphoto.org/proj/gphoto2/)
 
     $ brew install gphoto2
+    
+#### Windows
+Here we assume you're running Windows and have have [Chocolatey](https://chocolatey.org/) installed.
+
+    C:\> choco install nodejs.install
+
+##### Install imagemagick
+
+    C:\> choco install imagemagick
+
+##### Install [`gphoto2`](http://www.gphoto.org/proj/gphoto2/)
+
+#### Server instance
+
+The server is responsible for controlling the camera, and serving the Web interface that users will see.
+
+##### Install node & npm
+
+
 
 ##### Install gulp, coffee-script globally (if you haven't already)
 
